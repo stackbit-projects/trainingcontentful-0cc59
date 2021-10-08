@@ -1,0 +1,6 @@
+[build]
+publish = "out"
+command = "./stackbit-build.sh"
+
+  [build.environment]
+  NODE_VERSION = "12"
